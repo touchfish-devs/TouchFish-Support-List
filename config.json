@@ -55,6 +55,20 @@
       "github": "https://github.com/touchfish-devs/TouchFish-UI-Remake-2"
     },
     {
+      "id": "touchfish-auth",
+      "name": "TouchFish Auth",
+      "category": "chat",
+      "icon": { "type": "url", "value": "logo.png" },
+      "description": "TouchFish v5 验证服务",
+      "fullDescription": "TouchFish Auth 为 TouchFish 支持更多验证功能，扩展验证方式，现已 MIT 开源。",
+      "isOpenSource": true,
+      "license": "MIT",
+      "author": "ILoveScratch2(YWD2023)",
+      "maintainer": "ILoveScratch2(YWD2023)",
+      "website": "https://auth.ils.touchfish.xin/",
+      "github": "https://github.com/ILoveScratch2/TouchFish-Auth"
+    },
+    {
       "id": "touchfish-cloud",
       "name": "TouchFish Cloud",
       "category": "cloud",
@@ -92,12 +106,12 @@
       "isOpenSource": true,
       "license": "GPL-3.0",
       "author": "ILoveScratch2(YWD2023)",
-      "maintainer": "ILoveScratch2(YWD2023)",
-      "github": "https://github.com/ILoveScratch2/TouchFish.FileMove"
+      "maintainer": "ILoveScratch2(YWD2023) / Piaoztsdy",
+      "github": "https://github.com/touchfish-devs/TouchFish.FileMove"
     },
     {
       "id": "touchfish-oj",
-      "name": "TouchFish OJ",
+      "name": "TouchFish OJ(已并入 SCG4)",
       "category": "oi",
       "icon": { "type": "url", "value": "logos/touchfish-oj.png" },
       "description": "原 Piao OJ，TouchFish 生态的 OJ 系统，基于 Hydro 实现。",
@@ -108,12 +122,12 @@
       "website": "http://124.220.38.118:25565/"
     },
     {
-      "id": "scg3",
-      "name": "Sleeping Cup Generation 3",
+      "id": "scg4",
+      "name": "Sleeping Cup Generation 4",
       "category": "oi",
-      "icon": { "type": "url", "value": "logos/sleepingcup.png" },
+      "icon": { "type": "url", "value": "https://scg4.touchfish.xin/file/2/scup1.0.png" },
       "description": "Sleeping Cup 新一代。",
-      "fullDescription": "Sleeping Cup Generation 3（a.k.a. SCG3） 是 Sleeping Cup 的最新在线版本，包含所有数据。",
+      "fullDescription": "Sleeping Cup Generation 4（a.k.a. SCG3） 是 Sleeping Cup 的最新在线版本，包含所有数据。（合并 TFOJ）",
       "isOpenSource": true,
       "license": "GPL-3.0",
       "author": "035966_L3",
