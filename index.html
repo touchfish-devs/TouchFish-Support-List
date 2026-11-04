@@ -3,43 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="description" content="TouchFish 项目旗下的所有软件" />
   <title>TouchFish 支持列表</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@2/mdui.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/material-icons@latest/iconfont/material-icons.css" />
+  <link rel="icon" href="logo.png" />
   <link rel="stylesheet" href="style.css" />
-  <script src="https://cdn.jsdelivr.net/npm/mdui@2/mdui.global.js"></script>
+  <!--
+    Sober（Material 3 Expressive Web Components）
+    注意：页面结构由 app.js 通过 document.createElement 构建
+    Sober 的组件在构造期会写入标记属性（如 s-tab 的 item-vertical、s-page 的 dark）
+    由 HTML 解析器创建时会因自定义元素规范限制升级失败
+  -->
+  <script src="https://cdn.jsdelivr.net/npm/sober@2.0.0-alpha.20/dist/sober.min.js"></script>
 </head>
 <body>
-  <mdui-layout>
-    <mdui-top-app-bar id="top-bar" scroll-behavior="shrink elevate" scroll-threshold="20">
-      <mdui-icon name="rocket_launch" slot="icon"></mdui-icon>
-      <mdui-top-app-bar-title id="page-title"></mdui-top-app-bar-title>
-    </mdui-top-app-bar>
+  <div id="app"></div>
 
-    <mdui-layout-main>
-      <div class="content-wrapper">
-        <p id="page-subtitle" class="subtitle"></p>
-
-        <mdui-tabs id="category-tabs" value="all" variant="scrollable">
-        </mdui-tabs>
-
-        <div id="app-grid" class="app-grid"></div>
-
-        <div id="empty-state" class="empty-state" style="display:none;">
-          <mdui-icon name="search_off" class="empty-icon"></mdui-icon>
-          <p>该分类暂无软件</p>
-        </div>
-
-        <footer id="page-footer" class="page-footer"></footer>
-      </div>
-    </mdui-layout-main>
-  </mdui-layout>
-
-  <mdui-dialog id="detail-dialog" close-on-overlay-click>
-    <span slot="headline" id="dialog-headline"></span>
-    <div id="dialog-body"></div>
-    <mdui-button slot="action" variant="text" id="dialog-close-btn">关闭</mdui-button>
-  </mdui-dialog>
+  <noscript>
+    <p class="noscript">本页面需要启用 JavaScript！</p>
+  </noscript>
 
   <script type="module" src="app.js"></script>
 </body>

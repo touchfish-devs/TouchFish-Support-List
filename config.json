@@ -111,10 +111,10 @@
     },
     {
       "id": "touchfish-oj",
-      "name": "TouchFish OJ(已并入 SCG4)",
+      "name": "TouchFish OJ (已并入 SCG4)",
       "category": "oi",
       "icon": { "type": "url", "value": "logos/touchfish-oj.png" },
-      "description": "原 Piao OJ，TouchFish 生态的 OJ 系统，基于 Hydro 实现。",
+      "description": "已并入 SCG4（即将停用）原 Piao OJ，TouchFish 生态的 OJ 系统，基于 Hydro 实现。",
       "fullDescription": "TouchFish OJ 是 TouchFish 生态的 OJ 系统，基于 Hydro 实现，提供高性能的在线评测服务，用于编程竞赛和在线评测。",
       "isOpenSource": false,
       "author": "Piaoztsdy",
@@ -125,14 +125,14 @@
       "id": "scg4",
       "name": "Sleeping Cup Generation 4",
       "category": "oi",
-      "icon": { "type": "url", "value": "https://scg4.touchfish.xin/file/2/scup1.0.png" },
+      "icon": { "type": "url", "value": "logos/scg4.png" },
       "description": "Sleeping Cup 新一代。",
-      "fullDescription": "Sleeping Cup Generation 4（a.k.a. SCG3） 是 Sleeping Cup 的最新在线版本，包含所有数据。（合并 TFOJ）",
+      "fullDescription": "Sleeping Cup Generation 4（a.k.a. SCG4） 是 Sleeping Cup 的最新在线版本，包含所有数据。（合并 TFOJ）",
       "isOpenSource": true,
       "license": "GPL-3.0",
       "author": "035966_L3",
       "maintainer": "035966_L3",
-      "website": "https://scg3.piaoztsdy.cn/",
+      "website": "https://scg4.piaoztsdy.cn/",
       "github": "https://github.com/035966-L3/Sleeping-Cup-Source-Changelog"
     }
   ]
